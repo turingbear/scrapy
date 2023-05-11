@@ -11,6 +11,9 @@ class BookscraperItem(scrapy.Item):
     # name = scrapy.Field()
     pass
 
+
+
+
 class BookItem(scrapy.Item):
     url = scrapy.Field()
     title = scrapy.Field()
